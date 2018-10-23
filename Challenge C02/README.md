@@ -2,7 +2,7 @@
 
 In this file you can see a step-by-step of the challenge, consisting in getting JSON info of **the list of characters of Cable & Deadpool (2004) #46 (Zombie Variant)** and **the list of all stories when Agent X (Nijo) appears**, using the MARVEL developer API and Postman.
 
-1. Get into MARVEL documentation and first look for the collection, i.e. **Cable & Deadpool** *series* ![](img/"scr1.png") ![](img/"scr2.png").
+1. Get into MARVEL documentation and first look for the collection, i.e. **Cable & Deadpool** *series* ![](img/"scr1.png") ![](img/scr2.png).
 
 2. Get the Series ID to search the **#46 (Zombie Variant)** *comic* issue ![](img/"scr3.png").
 
