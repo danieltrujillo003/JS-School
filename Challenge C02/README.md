@@ -28,8 +28,8 @@ This file shows a step-by-step of the challenge, consisting in getting JSON info
 
 ### Let's get to work
 
-1. Look for the collection needed in the MARVEL API, in this case we will look for the **Cable & Deadpool** *series*  
-![Series Collection](img/series.PNG).  
+1. Look for the collection needed in the MARVEL API, in this case we will look for the **Cable & Deadpool** *series*.  
+![Series Collection](img/series.PNG)  
 In the parameters section, input "Cable" in the "titleStartsWith" parameter and "2004" in the "startYear", then click Try it out! button to get a more accurate query in the API.  
 ![Parameters](img/query.PNG)
 
