@@ -13,6 +13,16 @@
   src:url("fonts/Pluto_Sans/HVD Fonts - PlutoSansCondRegular.otf");
 }
 
+@font-face {
+  font-family: PlutoSansCondBold;
+  src:url("fonts/Pluto_Sans/HVD Fonts - PlutoSansCondBold.otf");
+}
+
+@font-face {
+  font-family: PlutoSansCondMedium;
+  src:url("fonts/Pluto_Sans/HVD Fonts - PlutoSansCondMedium.otf");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,25 +33,27 @@ html {
   min-height: 100%;
 }
 
-.logo {	
-  margin: auto;
-  padding-top: 0.2rem;
+a {
+	text-decoration: none;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 14.63% auto 14.63%;
-  grid-template-rows: auto;
-  grid-gap: 0;
-  height: 92vh;
+.logo {	
+  background-color: #FFF;
+}
+
+.logo > img {
+	padding-left: 1.95rem;
+  padding-top: 1rem;
 }
 
 .topnav {
   display: grid;
   grid-template-columns: 14.63% auto 14.63%;
-  grid-template-rows: 8vh;
+  grid-template-rows: 80px;
   grid-gap: 0;
   border-bottom: 2px solid #6ec1e4;
+  width: 100%;
+  /*position: fixed;*/
 }
 
 h1 {
@@ -49,8 +61,8 @@ h1 {
   font-family: PlutoSansMedium;
   font-weight: 400;
   font-size: 1.5rem;
-  padding-left: 1.45rem;
-  padding-top: 1.6rem;  	
+  margin-left: 1.45rem;
+  margin-top: 1.6rem;  	
 }
 
 .medium-header, .user {
@@ -75,7 +87,7 @@ form {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  padding-left: 0.7rem;
+  margin-left: 0.7rem;
   font-size: 1.1rem;
 }
 
@@ -85,9 +97,10 @@ input[name="search"] {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  padding-left: 2.2rem;
+  margin-left: 2.2rem;
   font-family: PlutoSansRegular;
   font-size: 0.85rem;
+  width: inherit;
 }
 
 .user {
@@ -95,39 +108,90 @@ input[name="search"] {
   grid-template-columns: auto 10% 25%;
   grid-template-rows: inherit;
   grid-gap: 0;
+  
 }
 
 .photo {	
-	padding-top: 1.3rem;
+	margin-top: 1.3rem;
 }
 
 .photo > img {
 	border: 2px solid #6ec1e4;
-	border-radius: 19px;
+	border-radius: 100%;
 }
 
 .user > i {
-	padding-top: 2.2rem;
-	font-size: 0.85rem;
+	margin-top: 2.2rem;
+	font-size: 0.85rem;	
 }
 
 .user span {
 	font-family: PlutoSansCondRegular;
-	padding-top: 2rem;
-	padding-left: 4.3rem;
+	padding-top: 1rem;
+	padding-left: 4.2rem;
 	font-size: 0.85rem;
+	border-left: 1px solid #979797;
+  height: 50px;
+  margin-top: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 14.63% auto 14.63%;
+  grid-template-rows: auto;
+  grid-gap: 0;
+  height: calc(100vh - 80px);
+}
+
+.bar-left {
+	background-color: #231f20;
+	font-family: PlutoSansCondRegular;
 }
 
 .nav-main {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 20px 20px 20px 20px 20px 20px 20px ;
-  grid-gap: 0;
+  grid-template-rows: 17px 19px 19px 19px 19px 19px 19px;
+  grid-gap: 1.3rem;
+  margin: 2.1rem 0 3.4rem 2.4rem;
+  font-size: 14px;
+}
+
+.nav-link, .nav-link a:visited {
+	color: #6ec1e4;
+}
+
+.nav-link > i {
+	width: 18px;
+	text-align: right;
+}
+
+.nav-link > a {
+	margin-left: 1rem;
+}
+
+.last, .last:visited {
+	color: #fcf8f3 !important;
+	font-family: PlutoSansCondMedium; 
 }
 
 .nav-your-books {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 20px 20px 20px 20px 20px;
-  grid-gap: 0;
+  grid-template-rows: 17px 17px 17px 17px 17px;
+  grid-gap: 1.4rem;
+  margin-left: 2.4rem;
+	font-size: 13px;  
 }
+
+.nav-main > span, .nav-your-books > span {
+	color: #fff;
+	font-family: PlutoSansCondBold;
+	font-size: 13px; 
+}
+
+.nav-your-books i {
+	font-size: 0.9rem;
+}
+
+
