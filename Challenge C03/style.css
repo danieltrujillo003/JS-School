@@ -23,6 +23,12 @@
   src:url("fonts/Pluto_Sans/HVD Fonts - PlutoSansCondMedium.otf");
 }
 
+
+@font-face {
+  font-family: PlutoSansCondLight;
+  src:url("fonts/Pluto_Sans/HVD Fonts - PlutoSansCondLight.otf");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -60,7 +66,7 @@ h1 {
   position: absolute;
   font-family: PlutoSansMedium;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 24px;
   margin-left: 1.45rem;
   margin-top: 1.6rem;  	
 }
@@ -157,10 +163,6 @@ input[name="search"] {
   font-size: 14px;
 }
 
-.nav-link, .nav-link a:visited {
-	color: #6ec1e4;
-}
-
 .nav-link > i {
 	width: 18px;
 	text-align: right;
@@ -168,6 +170,10 @@ input[name="search"] {
 
 .nav-link > a {
 	margin-left: 1rem;
+}
+
+.nav-link, .nav-link a:visited {
+	color: #6ec1e4;
 }
 
 .last, .last:visited {
@@ -195,3 +201,33 @@ input[name="search"] {
 }
 
 
+.bar-right {
+	background-color: #231f20;
+	font-family: PlutoSansCondLight;
+	color: #fcf8f3;
+	padding: 2rem 2rem 0 2.1rem;
+}
+
+.bar-right span {
+	font-size: 13px
+}
+
+.bar-right ol {
+	padding: 0;
+}
+
+.bar-right li {
+	margin-top: 1.65rem;
+	font-size: 12px;
+	overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+	list-style-position: inside;
+}
+
+.books {
+	display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-template-rows: 300px 300px 300px;
+  grid-gap: 20px;
+}
