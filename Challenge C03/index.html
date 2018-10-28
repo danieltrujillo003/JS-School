@@ -40,58 +40,50 @@
 		<nav class="bar-left">
 			<div class="nav-main">
 				<span>MAIN</span>
-				<div class="nav-link"><i class="fas fa-globe"></i>
-					<a href="#">Quito</a></div>
-				<div class="nav-link"><i class="fas fa-globe"></i>
-					<a href="#">Cartagena</a></div>
-				<div class="nav-link"><i class="fas fa-globe"></i>
-					<a href="#">Medellín</a></div>
-				<div class="nav-link"><i class="fas fa-tablet-alt"></i>
-					<a href="#">Digital</a></div>
-				<div class="nav-link"><i class="fas fa-user-tag"></i>
-					<a href="#">Personal Loans</a></div>
-				<div class="nav-link"><i class="fas fa-tags last"></i>
-						<a href="#" class="last">New Releases</a></div>
+				<div class="nav-link"><i class="fas fa-globe"></i><a href="#">Quito</a></div>
+				<div class="nav-link"><i class="fas fa-globe"></i><a href="#">Cartagena</a></div>
+				<div class="nav-link"><i class="fas fa-globe"></i><a href="#">Medellín</a></div>
+				<div class="nav-link"><i class="fas fa-tablet-alt"></i><a href="#">Digital</a></div>
+				<div class="nav-link"><i class="fas fa-user-tag"></i><a href="#">Personal Loans</a></div>
+				<div class="nav-link"><i class="fas fa-tags last"></i><a href="#" class="last">New Releases</a></div>
 			</div>
 			<div class="nav-your-books">
 				<span>YOUR BOOKS</span>
-				<div class="nav-link"><i class="fas fa-book-open"></i>
-					<a href="#">Readings</a></div>
-				<div class="nav-link"><i class="fas fa-history"></i>
-					<a href="#">History</a></div>
-				<div class="nav-link"><i class="fas fa-bookmark"></i>
-					<a href="#">Read Later</a></div>
-				<div class="nav-link"><i class="fas fa-heart"></i>
-					<a href="#">Favorites</a></div>			
+				<div class="nav-link"><i class="fas fa-book-open"></i><a href="#">Readings</a></div>
+				<div class="nav-link"><i class="fas fa-history"></i><a href="#">History</a></div>
+				<div class="nav-link"><i class="fas fa-bookmark"></i><a href="#">Read Later</a></div>
+				<div class="nav-link"><i class="fas fa-heart"></i><a href="#">Favorites</a></div>			
 			</div>
 		</nav>
 
-		<main style="background-color: lightblue;">
-			<header>
+		<main>
+			<header class="main-header">
 				<h2>New Releases</h2>
-				<a href="#">Release date</a>
-				<a href="#">Popularity</a>
-				<a href="#"><i class="fas fa-th-large"></i></a>
-				<a href="#"><i class="fas fa-th-list"></i></a>
+				<div class="book-order">
+					<a href="#" id="border-main">Release Date</a>
+					<a href="#">Popularity</a>
+				</div>
+				<div id="display-main">
+					<a href="#"><i class="fas fa-th-large left-display"></i></a>
+					<a href="#"><i class="fas fa-th-list"></i></a>
+				</div>
 			</header>
 			<section class="books">
 				<article>
 					<figure>
-						<img src="img/book-covers/everything.png" alt="Everything I never told you book cover">
+						<img id="imagen" src="img/book-covers/everything.png" alt="Everything I never told you book cover">
 					</figure>
 					<h3>Everything I never Told You</h3>
 					<span>Celeste Ng</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
-						<img src="img/book-covers/all-the-light.png" alt="All the light we cannot see book cover">
+						<img src="img/book-covers/little-lies.png" alt="All the light we cannot see book cover">
 					</figure>
-					<h3>All the light we cannot see</h3>
+					<h3>All the Light We Cannot See</h3>
 					<span>Anthony Doerr</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -99,8 +91,7 @@
 					</figure>
 					<h3>Everything I never Told You</h3>
 					<span>Celeste Ng</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -108,8 +99,7 @@
 					</figure>
 					<h3>Everything I never Told You</h3>
 					<span>Celeste Ng</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -117,8 +107,7 @@
 					</figure>
 					<h3>Everything I never Told You</h3>
 					<span>Phil Kaly</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -126,8 +115,7 @@
 					</figure>
 					<h3>Euphoria</h3>
 					<span>Lily King</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -135,8 +123,7 @@
 					</figure>
 					<h3>Big Little Lies</h3>
 					<span>Liane Moriarty</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -144,8 +131,7 @@
 					</figure>
 					<h3>The Bone Clocks</h3>
 					<span>David Mitchell</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -153,8 +139,7 @@
 					</figure>
 					<h3>Revival</h3>
 					<span>Stephen King</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -162,8 +147,7 @@
 					</figure>
 					<h3>Station Eleven</h3>
 					<span>Emily St. John Mandel</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -171,8 +155,7 @@
 					</figure>
 					<h3>Being Mortal: Medicine and What Matters in the End</h3>
 					<span>Atul Gawande</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -181,8 +164,7 @@
 					<h3>Savage Harvest: A Tale of Cannibals, Colonialism, and Michael Rockefeller's 
 						Tragic Quest for Primitive Art</h3>
 					<span>Carl Hoffman</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -190,8 +172,7 @@
 					</figure>
 					<h3>The Book of Unknown Americans: A novel</h3>
 					<span>Cristina Henríquez</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -199,8 +180,7 @@
 					</figure>
 					<h3>The Paying Guests</h3>
 					<span>Sarah Waters</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div>
 					</article>
 					<article>
 					<figure>
@@ -208,13 +188,9 @@
 					</figure>
 					<h3>We Were Liars</h3>
 					<span>E. Lockhart</span>
-					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i>
-						<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+					<div class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
 					</article>
 			</section>
-			<footer>
-				
-			</footer>
 		</main>
 
 		<aside class="bar-right">
