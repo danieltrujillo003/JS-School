@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#pentagram {
+  width: 50vw;
+}
+
+.lyrics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 250px;
+}
+
+.word {
+  display: none;
+  font-size: 3rem;
+  margin: 0 1.5vw;
+  font-family: "Roboto", sans-serif;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: 2fr repeat(5, 1fr) 2fr 2fr repeat(8, 1fr) 2fr;
+  grid-template-rows: 15vw;
+  border: 5px solid black;
+  width: 50vw;
+}
+
+.white {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background: white;
+}
+
+.black {
+  height: 10vw;
+  border: 2px solid black;
+  border-top-width: 0px;
+  background: black;
+  color: white;
+}
+
+.white,
+.black {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 1em;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.piano-key:first-child {
+  border-left: none;
+}
+
+.piano-key:nth-child(7) {
+  border-right: none;
+}
+
+#C {
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+#D {
+  grid-column: 3/6;
+  grid-row: 1;
+}
+
+#E {
+  grid-column: 6/8;
+  grid-row: 1;
+}
+
+#F {
+  grid-column: 8/10;
+  grid-row: 1;
+}
+
+#G {
+  grid-column: 10/13;
+  grid-row: 1;
+}
+
+#A {
+  grid-column: 13/16;
+  grid-row: 1;
+}
+
+#B {
+  grid-column: 16/18;
+  grid-row: 1;
+}
+
+#C-hash {
+  grid-column: 2/4;
+  grid-row: 1;
+}
+
+#D-hash {
+  grid-column: 5/7;
+  grid-row: 1;
+}
+
+#F-hash {
+  grid-column: 9/11;
+  grid-row: 1;
+}
+
+#G-hash {
+  grid-column: 12/14;
+  grid-row: 1;
+}
+
+#A-hash {
+  grid-column: 15/17;
+  grid-row: 1;
+}
+
+.tomato {
+  background-color: tomato;
+}
+
+@media only screen and (max-width: 1024px) {
+  .keyboard {
+    width: 100vw;
+    grid-template-rows: 20vw;
+  }
+
+  .black {
+    height: 13vw;
+  }
+
+  .word {
+    margin: 0 3vw;
+  }
+
+  #pentagram {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .word {
+    font-size: 1.8em;
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<title>PIANAPP</title>
+	<meta name="description" content="The web app to practice and have fun with piano">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.png" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="stylesheet" href="style/app.css">
+</head>
+
+<body>
+
+	<main class="container">
+		<div>
+			<img src="img/countOnMe.png" alt="Pentagram for the COunt On Me piece of song" id="pentagram">
+		</div>
+
+		<div class="lyrics">
+			<div class="word">You</div>
+			<div class="word">can</div>
+			<div class="word">count</div>
+			<div class="word">on</div>
+			<div class="word">me</div>
+			<div class="word">like</div>
+			<div class="word">1</div>
+			<div class="word">2</div>
+			<div class="word">3</div>
+		</div>
+
+		<div class="keyboard">
+			<div class="piano-key white" id="C">
+				<audio id="65">
+					<source src="mp3/notes/note1s.mp3" type="audio/mpeg"></audio>
+				<span>a</span></div>
+			<div class="piano-key white" id="D">
+				<audio id="83">
+					<source src="mp3/notes/note3s.mp3" type="audio/mpeg"></audio>
+				<span>s</span></div>
+			<div class="piano-key white" id="E">
+				<audio id="68">
+					<source src="mp3/notes/note5s.mp3" type="audio/mpeg"></audio>
+				<span>d</span></div>
+			<div class="piano-key white" id="F">
+				<audio id="72">
+					<source src="mp3/notes/note6s.mp3" type="audio/mpeg"></audio>
+				<span>h</span></div>
+			<div class="piano-key white" id="G">
+				<audio id="74">
+					<source src="mp3/notes/note8s.mp3" type="audio/mpeg"></audio>
+				<span>j</span></div>
+			<div class="piano-key white" id="A">
+				<audio id="75">
+					<source src="mp3/notes/note10s.mp3" type="audio/mpeg"></audio>
+				<span>k</span></div>
+			<div class="piano-key white" id="B">
+				<audio id="76">
+					<source src="mp3/notes/note12s.mp3" type="audio/mpeg"></audio>
+				<span>l</span></div>
+			<div class="piano-key black" id="C-hash">
+				<audio id="87">
+					<source src="mp3/notes/note2s.mp3" type="audio/mpeg"></audio>
+				<span>w</span></div>
+			<div class="piano-key black" id="D-hash">
+				<audio id="69">
+					<source src="mp3/notes/note4s.mp3" type="audio/mpeg"></audio>
+				<span>e</span></div>
+			<div class="piano-key black" id="F-hash">
+				<audio id="85">
+					<source src="mp3/notes/note7s.mp3" type="audio/mpeg"></audio>
+				<span>u</span></div>
+			<div class="piano-key black" id="G-hash">
+				<audio id="73">
+					<source src="mp3/notes/note9s.mp3" type="audio/mpeg"></audio>
+				<span>i</span></div>
+			<div class="piano-key black" id="A-hash">
+				<audio id="79">
+					<source src="mp3/notes/note11s.mp3" type="audio/mpeg"></audio>
+				<span>o</span></div>
+		</div>
+	</main>
+
+	<audio id="count-song">
+		<source src="mp3/songs/countOnMe.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+
+	<script src="script/script.js"></script>
+</body>
+
+</html>
