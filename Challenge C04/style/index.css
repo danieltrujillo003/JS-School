@@ -44,6 +44,7 @@ a {
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
+  text-align: center
 }
 
 a:visited {
@@ -56,16 +57,26 @@ a:visited {
   }
 
   img {
-    width: 50%;
+    width: 30%;
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 1.5em;
   }
 
   a {
-    font-size: 2em;
-    padding: 0.5em;
+    font-size: 0.8em;
+    padding: 0.5em 2em;
     border-radius: 20px;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  img {
+    width: 30%;
+  }
+
+  a {
+    font-size: 1.2em;
+    padding: 0.2em;
+  }

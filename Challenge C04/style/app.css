@@ -151,7 +151,7 @@ html {
 @media only screen and (max-width: 1024px) {
   .keyboard {
     width: 100vw;
-    grid-template-rows: 20vw;
+    grid-template-rows: 18vw;
   }
 
   .black {
@@ -169,10 +169,24 @@ html {
 
 @media only screen and (max-width: 768px) {
   .keyboard {
-    grid-template-rows: 40vw;
+    grid-template-rows: 25vw;
   }
 
   .black {
-    height: 25vw;
+    height: 17vw;
   }
+
+  .word {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
 }
+}
+
+@media only screen and (max-width: 640px) {
+  .keyboard {
+    grid-template-rows: 22vw;
+  }
+
+  .black {
+    height: 14vw;
+  }
