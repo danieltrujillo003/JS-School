@@ -55,12 +55,17 @@ a:visited {
     width: 80vw;
   }
 
+  img {
+    width: 50%;
+  }
+
   h1 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   a {
-    font-size: 1em;
-    padding: 0.2em;
+    font-size: 2em;
+    padding: 0.5em;
+    border-radius: 20px;
   }
 }

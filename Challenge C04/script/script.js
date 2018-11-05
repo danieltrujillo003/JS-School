@@ -32,8 +32,6 @@ const page = path.split('/').pop(); // It is assigned the HTML file name to a va
 
 let lyricNumber = 0;
 
-screen.orientation.lock('landscape'); // A test for only landscape app functionality
-
 // playClick function is defined to trigger the sound when clicking a key
 function playClick(sound) {
   if (sound.paused) {

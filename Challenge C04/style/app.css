@@ -19,13 +19,13 @@ html {
 }
 
 #pentagram {
-  width: 50vw;
+  width: 80vw;
 }
 
 .lyrics {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 80vw;
   height: 250px;
@@ -34,7 +34,7 @@ html {
 .word {
   display: none;
   font-size: 3rem;
-  margin: 0 1.5vw;
+  margin: 0 1.6vw;
   font-family: "Roboto", sans-serif;
 }
 
@@ -168,7 +168,11 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-  .word {
-    font-size: 1.8em;
+  .keyboard {
+    grid-template-rows: 40vw;
+  }
+
+  .black {
+    height: 25vw;
   }
 }
