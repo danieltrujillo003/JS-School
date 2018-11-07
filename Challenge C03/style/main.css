@@ -419,7 +419,6 @@ article {
 
 .description {
   background-color: rgba(35,31,32,0.88);
-  padding-top: 
 }
 
 
@@ -491,6 +490,7 @@ article {
 
   .nav-your-books {
 	margin-left: 10%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
