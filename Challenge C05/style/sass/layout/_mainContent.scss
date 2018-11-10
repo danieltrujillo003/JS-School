@@ -1,0 +1,138 @@
+main {
+  @include md {
+    grid-area: main;
+    height: inherit;
+  }
+  @include sm {
+    grid-area: center;
+  }
+  background-color: $bookshelf-bg-color;
+  overflow-y: scroll;
+}
+
+.main-header {
+  @include sm {
+    display: initial;
+    margin-left: 4%;
+    margin-top: 1rem;
+    text-align: center;
+
+    h2 {
+      display: none;
+    }
+  }
+  display: grid;
+  grid-template-columns: 41.7% 50% 8.3%;
+  grid-template-rows: 1.5rem;
+  margin: 1.7rem 7% 1.75rem;
+
+  h2 {
+    color: $sidebars-color;
+    font-family: PlutoSansCondLight;
+    font-size: 20px;
+  }
+}
+
+.book-order {
+  @include sm {
+    justify-content: center;
+  }
+  align-items: center;
+  display: flex;
+  font-family: PlutoSansCondMedium;
+  font-size: 14px;
+
+  a {
+    color: $text-color;
+
+    &:visited {
+      color: $text-color;
+    }
+  }
+}
+
+.border-main {
+  border-right: 1px solid $text-color;
+  margin-right: .6rem;
+  padding-right: .5rem;
+}
+
+.display-main {
+  @include sm {
+    display: none;
+  }
+  color: $main-color;
+  display: flex;
+  font-size: 1.15rem;
+  justify-content: flex-end;
+
+  a {
+    &:visited {
+      color: $main-color;
+    }
+
+    &:link {
+      color: $main-color;
+    }
+  }
+}
+
+.left-display {
+  padding-right: .5rem;
+}
+
+.books {
+  @include lg {
+    justify-content: space-around;
+  }
+  @include md {
+    justify-content: space-around;
+    overflow-x: hidden;
+  }
+  @include sm {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin-bottom: 1.8rem;
+  margin-left: 6.9%;
+  margin-right: 6.55%;
+
+  i {
+    color: $main-color;
+    font-size: 13px;
+    margin-top: .3rem;
+  }
+
+  article {
+    @include sm {
+      width: 100%;
+
+      img {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+    margin-bottom: 2.95rem;
+    position: relative;
+
+    h3 {
+      color: $book-title-color;
+      font-family: PlutoSansCondMedium;
+      font-size: 15px;
+      margin-top: .5rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 180px;
+    }
+
+    span {
+      color: $hover-description-color;
+      font-family: PlutoSansCondLight;
+      font-size: 13px;
+    }
+  }
+}

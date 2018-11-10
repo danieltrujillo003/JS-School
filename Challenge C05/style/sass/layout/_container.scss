@@ -1,0 +1,29 @@
+@import 'leftbar';
+@import 'rightbar';
+@import 'mainContent';
+
+.container {
+  @include lg {
+    grid-template-columns: 173.36px 1fr 173.36px;
+    height: calc(100vh - 60px);
+  }
+  @include md {
+    grid-template: 60% 40% / 173.36px 1fr;
+    grid-template-areas: 'leftbar main' 'rightbar main';
+  }
+  @include sm {
+    display: grid;
+    grid-template-areas: 'left' 'right' 'center';
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    height: calc(100vh - 80px);
+  }
+  display: grid;
+  grid-template-columns: 240px 1fr 240px;
+  grid-template-rows: auto;
+  height: calc(100vh - 80px);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  }

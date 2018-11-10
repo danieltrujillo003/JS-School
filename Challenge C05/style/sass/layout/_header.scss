@@ -1,0 +1,214 @@
+.logo {
+  @include lg {
+    img {
+      height: 50px;
+    }
+  }
+  @include sm {
+    background-color: $complement-color;
+  }
+  background-color: $white-color;
+}
+
+.logo-1 {
+  @include sm {
+    display: none;
+  }
+  padding-left: 13%;
+  padding-top: 1rem;
+}
+
+.logo-2 {
+  @include sm {
+    display: initial;
+    margin: 19%;
+  }
+  display: none;
+}
+
+.topnav {
+  @include lg {
+    border-bottom: 2px solid $main-color;
+    display: grid;
+    grid-template-columns: 173.36px 1fr 173.36px;
+    grid-template-rows: 60px;
+  }
+  @include md {
+    border-bottom: 2px solid $main-color;
+    display: grid;
+    grid-template-columns: 173.36px 1fr 20%;
+    grid-template-rows: 60px;
+  }
+  @include sm {
+    border-bottom: 3px solid $main-color;
+    display: grid;
+    grid-template-columns: 80px 1fr 80px;
+    grid-template-rows: 80px;
+    position: sticky;
+    top: 0;
+  }
+  border-bottom: 2px solid $main-color;
+  display: grid;
+  grid-template-columns: 240px 1fr 240px;
+  grid-template-rows: 80px;
+  position: sticky;
+  top: 0;
+}
+
+.medium-header {
+  @include sm {
+    display: flex;
+    justify-content: center;
+  }
+  background-color: $complement-color;
+}
+
+h1 {
+  @include lg {
+    font-size: 20px;
+    margin-top: 1.3rem;
+  }
+  @include md {
+    margin-left: 2.5rem;
+  }
+  @include sm {
+    font-size: 26px;
+    margin-left: 0;
+  }
+  font-family: PlutoSansMedium;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 1.4%;
+  margin-top: 1.6rem;
+  position: absolute;
+
+  .menu-icon {
+    @include sm {
+      border: 3px solid $black-color;
+      border-radius: 5px;
+      display: inline-block;
+      padding: 2px 3px 0;
+    }
+    display: none;
+    margin-left: 1rem;
+  }
+}
+
+.searchbar {
+  @include sm {
+    display: none;
+  }
+  float: right;
+}
+
+form {
+  @include lg {
+    height: 30px;
+    margin-top: 1rem;
+    width: 250px;
+  }
+  @include md {
+    height: 25px;
+    margin-top: 1.2rem;
+    width: 150px;
+  }
+  background-color: $form-color;
+  border: 1px solid $main-color;
+  border-radius: 16px;
+  height: 36px;
+  margin: 1.5rem 1.4rem;
+  position: relative;
+  width: 299px;
+}
+
+.searchicon {
+  font-size: 1.1rem;
+  margin-left: .7rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+input {
+  @include lg {
+    width: calc(250px - 2.2rem);
+  }
+  @include md {
+    width: calc(150px - 2.2rem);
+  }
+  background-color: transparent;
+  border: 0;
+  font-family: PlutoSansRegular;
+  font-size: .85rem;
+  margin-left: 2.2rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: calc(299px - 2.2rem);
+}
+
+.user {
+  @include lg {
+    grid-template-columns: 1fr 15% 30%;
+  }
+  @include sm {
+    display: initial;
+  }
+  background-color: $complement-color;
+  display: grid;
+  grid-template-columns: 1fr 10% 25%;
+  grid-template-rows: inherit;
+
+  span {
+    @include lg {
+      font-size: .7rem;
+      height: 30px;
+      margin-top: 1rem;
+      padding-left: 12%;
+      padding-top: .6rem;
+    }
+    @include sm {
+      display: none;
+    }
+    border-left: 1px solid $bar-color;
+    cursor: pointer;
+    font-family: PlutoSansCondRegular;
+    font-size: .85rem;
+    height: 50px;
+    margin-top: 1rem;
+    padding-left: 43%;
+    padding-top: 1rem;
+  }
+
+  i {
+    @include lg {
+      margin-top: 1.6rem;
+    }
+    @include sm {
+      display: none;
+    }
+    cursor: pointer;
+    font-size: .85rem;
+    margin-top: 2.2rem;
+  }
+}
+
+.photo {
+  @include lg {
+    margin-top: .7rem;
+  }
+  @include sm {
+    margin-left: 25%;
+    margin-top: 1rem;
+
+    img {
+      width: 47px;
+    }
+  }
+  margin-top: 1.3rem;
+
+  img {
+    border: 2px solid $main-color;
+    border-radius: 100%;
+  }
+}
