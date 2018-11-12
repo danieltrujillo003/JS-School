@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="The best collection of books on the web"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jobsity Bookshelf</title>
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+
+  <body>
+    <header class="topnav">
+      <figure class="logo">
+        <img src="img/logo.png" alt="Jobsity logo" class="logo-1" />
+        <img src="img/favicon.png" alt="Jobsity second logo" class="logo-2" />
+      </figure>
+      <div class="medium-header" id="dev-container">
+        <h1 id="dev-launch">
+          Bookshelf<i class="fas fa-bars menu-icon" id="menu"></i>
+        </h1>
+        <div class="searchbar">
+          <form>
+            <i class="fas fa-search searchicon"></i>
+            <input
+              class="search-input"
+              type="text"
+              name="search"
+              placeholder="Search..."
+            />
+          </form>
+        </div>
+      </div>
+      <div class="user">
+        <span>Jakob Treml</span> <i class="fas fa-angle-down"></i>
+        <figure class="photo">
+          <img src="img/jakob.png" alt="user photo" />
+        </figure>
+      </div>
+    </header>
+
+    <div class="container">
+      <nav class="bar-left" id="leftbar">
+        <div class="nav-main">
+          <span>MAIN</span>
+          <div class="nav-link">
+            <i class="fas fa-globe"></i><a href="#">Quito</a>
+          </div>
+          <div class="nav-link">
+            <i class="fas fa-globe"></i><a href="#">Cartagena</a>
+          </div>
+          <div class="nav-link">
+            <i class="fas fa-globe"></i><a href="#">Medellín</a>
+          </div>
+          <div class="nav-link">
+            <i class="fas fa-tablet-alt"></i><a href="#">Digital</a>
+          </div>
+          <div class="nav-link">
+            <i class="fas fa-user-tag"></i><a href="#">Personal Loans</a>
+          </div>
+          <div class="nav-link">
+            <i class="fas fa-tags last-icon"></i
+            ><a href="#" class="last">New Releases</a>
+          </div>
+        </div>
+        <div class="nav-your-books">
+          <span>YOUR BOOKS</span>
+          <div class="nav-link">
+            <i class="fas fa-book-open"></i><a href="#">Readings</a>
+          </div>
+          <div class="nav-link">
+            <i class="fas fa-history"></i><a href="#">History</a>
+          </div>
+          <div class="nav-link">
+            <i class="fas fa-bookmark"></i><a href="#">Read Later</a>
+          </div>
+          <div class="nav-link">
+            <i class="fas fa-heart"></i><a href="#">Favorites</a>
+          </div>
+        </div>
+      </nav>
+
+      <main id="main">
+        <header class="main-header">
+          <h2>New Releases</h2>
+          <div class="book-order">
+            <a href="#" class="border-main">Release Date</a>
+            <a href="#">Popularity</a>
+          </div>
+          <div class="display-main">
+            <a href="#"><i class="fas fa-th-large left-display"></i></a>
+            <a href="#"><i class="fas fa-th-list"></i></a>
+          </div>
+        </header>
+        <section class="books" id="books-container">
+          <!--
+            This is the container of the books generated via document fragment
+          -->
+        </section>
+      </main>
+
+      <aside class="bar-right" id="rightbar">
+        <div class="most-read">
+          <span
+            >MOST READ BOOKS<i class="fas fa-caret-down" id="arrow"></i
+          ></span>
+          <ol>
+            <li>Hooked: How to Build Habit-Forming Products</li>
+            <li>
+              The Inevitable: Understanding the 12 Technological Forces That
+              Will Shape Our Future
+            </li>
+            <li>Lean In: Women, Work, and the Will to Lead</li>
+            <li>Building a Business When There Are No Easy Answers</li>
+            <li>How Google Works</li>
+          </ol>
+        </div>
+      </aside>
+    </div>
+    <script src="script/responsive.js"></script>
+    <script src="script/bookDisplay.js"></script>
+    <script src="script/devMode.js"></script>
+  </body>
+</html>
