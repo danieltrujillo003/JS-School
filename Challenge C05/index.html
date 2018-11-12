@@ -17,6 +17,7 @@
       integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
       crossorigin="anonymous"
     />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   </head>
 
   <body>
@@ -25,12 +26,19 @@
         <img src="img/logo.png" alt="Jobsity logo" class="logo-1" />
         <img src="img/favicon.png" alt="Jobsity second logo" class="logo-2" />
       </figure>
-      <div class="medium-header">
-        <h1>Bookshelf<i class="fas fa-bars menu-icon" id="menu"></i></h1>
+      <div class="medium-header" id="dev-container">
+        <h1 id="dev-launch">
+          Bookshelf<i class="fas fa-bars menu-icon" id="menu"></i>
+        </h1>
         <div class="searchbar">
           <form>
             <i class="fas fa-search searchicon"></i>
-            <input type="text" name="search" placeholder="Search..." />
+            <input
+              class="search-input"
+              type="text"
+              name="search"
+              placeholder="Search..."
+            />
           </form>
         </div>
       </div>
@@ -83,7 +91,7 @@
         </div>
       </nav>
 
-      <main>
+      <main id="main">
         <header class="main-header">
           <h2>New Releases</h2>
           <div class="book-order">
@@ -95,250 +103,10 @@
             <a href="#"><i class="fas fa-th-list"></i></a>
           </div>
         </header>
-        <section class="books">
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/everything.png"
-                alt="Everything I never told you book cover"
-              />
-            </figure>
-            <h3>Everything I never Told You</h3>
-            <span>Celeste Ng</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/little-lies.png"
-                alt="All the light we cannot see book cover"
-              />
-            </figure>
-            <h3>All the Light We Cannot See</h3>
-            <span>Anthony Doerr</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="far fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/bone.png"
-                alt="The bone clocks book cover"
-              />
-            </figure>
-            <h3>Everything I never Told You</h3>
-            <span>Celeste Ng</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/revival.png"
-                alt="Revival book cover"
-              />
-            </figure>
-            <h3>Everything I never Told You</h3>
-            <span>Celeste Ng</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/all-the-light.png"
-                alt="Redeployment book cover"
-              />
-            </figure>
-            <h3>Everything I never Told You</h3>
-            <span>Phil Kaly</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/euphoria.png"
-                alt="Euphoria book cover"
-              />
-            </figure>
-            <h3>Euphoria</h3>
-            <span>Lily King</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="far fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/little-lies.png"
-                alt="Big little lies book cover"
-              />
-            </figure>
-            <h3>Big Little Lies</h3>
-            <span>Liane Moriarty</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="far fa-star"></i><i class="far fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/bone.png"
-                alt="The bone clocks book cover"
-              />
-            </figure>
-            <h3>The Bone Clocks</h3>
-            <span>David Mitchell</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/revival.png"
-                alt="Revival book cover"
-              />
-            </figure>
-            <h3>Revival</h3>
-            <span>Stephen King</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="far fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/station.png"
-                alt="Station eleven book cover"
-              />
-            </figure>
-            <h3>Station Eleven</h3>
-            <span>Emily St. John Mandel</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/being-mortal.png"
-                alt="Being mortal book cover"
-              />
-            </figure>
-            <h3>Being Mortal: Medicine and What Matters in the End</h3>
-            <span>Atul Gawande</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/savage.png"
-                alt="Savage harvest book cover"
-              />
-            </figure>
-            <h3>
-              Savage Harvest: A Tale of Cannibals, Colonialism, and Michael
-              Rockefeller's Tragic Quest for Primitive Art
-            </h3>
-            <span>Carl Hoffman</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/unknown.png"
-                alt="The book of unknown americans book cover"
-              />
-            </figure>
-            <h3>The Book of Unknown Americans: A novel</h3>
-            <span>Cristina Henríquez</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/paying-guests.png"
-                alt="The Paying guests book cover"
-              />
-            </figure>
-            <h3>The Paying Guests</h3>
-            <span>Sarah Waters</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
-          <article>
-            <figure>
-              <img
-                class="book-cover"
-                src="img/book-covers/liars.png"
-                alt="We were liars cover"
-              />
-            </figure>
-            <h3>We Were Liars</h3>
-            <span>E. Lockhart</span>
-            <div class="rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="fas fa-star"></i><i class="fas fa-star"></i
-              ><i class="far fa-star"></i>
-            </div>
-          </article>
+        <section class="books" id="books-container">
+          <!--
+            This is the container of the books generated via document fragment
+          -->
         </section>
       </main>
 
@@ -361,5 +129,7 @@
       </aside>
     </div>
     <script src="script/responsive.js"></script>
+    <script src="script/bookDisplay.js"></script>
+    <script src="script/devMode.js"></script>
   </body>
 </html>
