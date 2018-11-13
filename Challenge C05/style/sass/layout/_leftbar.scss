@@ -34,9 +34,7 @@
   margin: 2.1rem 16% 3.4rem;
 
   span {
-    color: $white-color;
-    font-family: PlutoSansCondBold;
-    font-size: 13px;
+    @include text-style($white-color, PlutoSansCondBold, 13px);
   }
 }
 
@@ -103,9 +101,7 @@
   }
 
   span {
-    color: $white-color;
-    font-family: PlutoSansCondBold;
-    font-size: 13px;
+    @include text-style($white-color, PlutoSansCondBold, 13px);
   }
 }
 

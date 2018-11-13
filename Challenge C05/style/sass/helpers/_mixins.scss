@@ -1,21 +1,59 @@
+@mixin transform($degrees) {
+  -ms-transform: rotate($degrees);
+  -webkit-transform: rotate($degrees);
+  transform: rotate($degrees);
+}
+
+@mixin hide-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin text-style($color, $family, $size) {
+  color: $color;
+  font-family: $family;
+  font-size: $size;
+}
+
+@mixin hover-responsive {
+  left: -70%;
+  position: absolute;
+  width: 23.9rem;
+}
+
 // Media queries
 @mixin lg {
   @media only screen and (max-width: 1180px) {
     @content;
   }
 }
+
 @mixin md {
   @media only screen and (max-width: 900px) {
     @content;
   }
 }
+
 @mixin sm {
   @media only screen and (max-width: 650px) {
     @content;
   }
 }
-@mixin transform($degrees) {
-  -ms-transform: rotate($degrees);
-  -webkit-transform: rotate($degrees);
-  transform: rotate($degrees);
+
+@mixin four-columns {
+  @media only screen and (max-width: 1519px) {
+    @content;
+  }
+}
+
+@mixin three-columns {
+  @media only screen and (max-width: 1311px) {
+    @content;
+  }
+}
+
+@mixin two-columns {
+  @media only screen and (max-width: 970px) {
+    @content;
+  }
 }

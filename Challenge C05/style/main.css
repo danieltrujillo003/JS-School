@@ -429,12 +429,13 @@ form {
 }
 @media only screen and (max-width: 650px) {
   .bar-right {
+    overflow: hidden;
+    text-overflow: ellipsis;
     grid-area: right;
     height: 35px;
-    overflow-y: hidden;
     padding: 0.5rem 5%;
     text-align: center;
-    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
 .bar-right span {
@@ -460,11 +461,11 @@ form {
   }
 }
 .bar-right li {
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-size: 12px;
   list-style-position: inside;
   margin-top: 1.65rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
 }
 @media only screen and (max-width: 650px) {
@@ -600,11 +601,58 @@ main {
 }
 .books article {
   margin-bottom: 2.95rem;
+  position: relative;
 }
 @media only screen and (max-width: 650px) {
   .books article {
     width: 100%;
   }
+}
+@media only screen and (max-width: 1519px) {
+  .books article:nth-child(5n) .popup .description {
+    position: initial;
+  }
+  .books article:nth-child(5n-1) .popup .description {
+    position: initial;
+  }
+  .books article:nth-child(4n) .description {
+    left: -70%;
+    position: absolute;
+    width: 23.9rem;
+  }
+  .books article:nth-child(4n-1) .description {
+    left: -70%;
+    position: absolute;
+    width: 23.9rem;
+  }
+}
+@media only screen and (max-width: 1311px) {
+  .books article:nth-child(4n) .popup .description {
+    position: initial;
+  }
+  .books article:nth-child(4n-1) .popup .description {
+    position: initial;
+  }
+  .books article:nth-child(3n) .popup .description {
+    left: -70%;
+    position: absolute;
+    width: 23.9rem;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .books article:hover .popup .description, .books article:hover .popup .cover-hover {
+    display: none;
+  }
+}
+.books article:nth-child(5n) .description {
+  left: -70%;
+  position: absolute;
+  width: 23.9rem;
+}
+.books article:nth-child(5n-1) .description {
+  left: -70%;
+  position: absolute;
+  width: 23.9rem;
 }
 .books article img {
   height: 250px;
@@ -617,20 +665,135 @@ main {
     width: 100%;
   }
 }
-.books article h3 {
+.books article .article-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
   color: #383838;
   font-family: PlutoSansCondMedium;
   font-size: 15px;
   margin-top: 0.5rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
   width: 180px;
 }
-.books article span {
+.books article .article-author {
   color: #9e9e9e;
   font-family: PlutoSansCondLight;
   font-size: 13px;
+}
+.books article:hover .popup {
+  display: grid;
+}
+
+.popup {
+  display: none;
+  grid-gap: 1.9rem;
+  grid-template-columns: 176px 23.9rem;
+  grid-template-rows: auto;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.popup .cover-hover {
+  background-color: rgba(35, 31, 32, 0.88);
+  height: 250px;
+  width: 176px;
+}
+.popup .description {
+  background-color: rgba(35, 31, 32, 0.88);
+  border-radius: 0.3rem;
+  height: auto;
+  padding: 1.8rem 1.9rem;
+}
+.popup .description h4 {
+  margin-bottom: 0.5rem;
+}
+.popup .circle {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 100%;
+  clear: both;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  margin-left: 63px;
+  margin-top: 98px;
+  width: 3rem;
+}
+.popup .circle .fa-book-open {
+  font-size: 22px;
+}
+.popup .rate-book {
+  margin-left: 47px;
+  margin-top: 53px;
+}
+.popup .rate-sentence {
+  color: #fcf8f3;
+  font-family: PlutoSansCondMedium;
+  font-size: 11px;
+}
+.popup .rate-hover {
+  margin-left: 4px;
+}
+.popup .rate-hover .fa-star {
+  color: #eec75a;
+}
+.popup .hover-title {
+  color: #5eb4dd;
+  font-family: PlutoSansCondBold;
+  font-size: 13px;
+}
+.popup .hover-novel-by {
+  color: #fff;
+  font-family: PlutoSansCondRegular;
+  font-size: 13px;
+}
+.popup .hover-summary,
+.popup .hover-rating {
+  color: #858585;
+  font-family: PlutoSansCondBold;
+  font-size: 12px;
+}
+.popup .hover-p {
+  color: #fff;
+  font-family: PlutoSansCondRegular;
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+  max-height: 170px;
+  overflow: scroll;
+}
+
+.hover-pages {
+  color: #fff;
+  font-family: PlutoSansCondRegular;
+  font-size: 13px;
+  display: block;
+  margin-bottom: 1.2rem;
+}
+
+.hover-year {
+  color: #858585;
+  font-family: PlutoSansCondRegular;
+  font-size: 13px;
+  float: right;
+}
+
+.hover-button {
+  color: #6ec1e4;
+  font-family: PlutoSansCondBold;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #6ec1e4;
+  border-radius: 0.5rem;
+}
+.hover-button:active {
+  background-color: #f5f6f8;
+}
+
+.hover-responsive {
+  left: -70%;
+  position: absolute;
+  width: 23.9rem;
 }
 
 .container {
@@ -659,10 +822,6 @@ main {
     grid-template-rows: repeat(3, auto);
     height: calc(100vh - 80px);
   }
-}
-
-::-webkit-scrollbar {
-  width: 0;
 }
 
 * {

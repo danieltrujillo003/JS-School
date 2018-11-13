@@ -5,12 +5,12 @@
     padding-left: 10%;
   }
   @include sm {
+    @include hide-text;
     grid-area: right;
     height: 35px;
-    overflow-y: hidden;
     padding: .5rem 5%;
     text-align: center;
-    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   background-color: $sidebars-color;
   color: $complement-color;
@@ -42,11 +42,10 @@
     @include sm {
       margin-top: .4rem;
     }
+    @include hide-text;
     font-size: 12px;
     list-style-position: inside;
     margin-top: 1.65rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
     white-space: nowrap;
   }
 }

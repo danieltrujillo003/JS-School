@@ -27,9 +27,7 @@ main {
   margin: 1.7rem 7% 1.75rem;
 
   h2 {
-    color: $sidebars-color;
-    font-family: PlutoSansCondLight;
-    font-size: 20px;
+    @include text-style($sidebars-color, PlutoSansCondLight, 20px);
   }
 }
 
@@ -110,7 +108,88 @@ main {
     @include sm {
       width: 100%;
     }
+
+    @include four-columns {
+      &:nth-child(5n) {
+        .popup {
+          .description {
+            position: initial;
+          }
+        }
+      }
+
+      &:nth-child(5n-1) {
+        .popup {
+          .description {
+            position: initial;
+          }
+        }
+      }
+
+      &:nth-child(4n) {
+        .description {
+          @include hover-responsive;
+        }
+      }
+
+      &:nth-child(4n-1) {
+        .description {
+          @include hover-responsive;
+        }
+      }
+    }
+
+    @include three-columns {
+      &:nth-child(4n) {
+        .popup {
+          .description {
+            position: initial;
+          }
+        }
+      }
+
+      &:nth-child(4n-1) {
+        .popup {
+          .description {
+            position: initial;
+          }
+        }
+      }
+
+      &:nth-child(3n) {
+        .popup {
+          .description {
+            @include hover-responsive;
+          }
+        }
+      }
+    }
+
+    @include two-columns {
+      &:hover {
+        .popup {
+          .description,
+          .cover-hover {
+            display: none;
+          }
+        }
+      }
+    }
+
     margin-bottom: 2.95rem;
+    position: relative;
+
+    &:nth-child(5n) {
+      .description {
+        @include hover-responsive;
+      }
+    }
+
+    &:nth-child(5n-1) {
+      .description {
+        @include hover-responsive;
+      }
+    }
 
     img {
       @include sm {
@@ -122,21 +201,134 @@ main {
       width: 176px;
     }
 
-    h3 {
-      color: $book-title-color;
-      font-family: PlutoSansCondMedium;
-      font-size: 15px;
+    .article-title {
+      @include hide-text;
+      @include text-style($book-title-color, PlutoSansCondMedium, 15px);
       margin-top: .5rem;
-      overflow: hidden;
-      text-overflow: ellipsis;
       white-space: nowrap;
       width: 180px;
     }
 
-    span {
-      color: $hover-description-color;
-      font-family: PlutoSansCondLight;
-      font-size: 13px;
+    .article-author {
+      @include text-style($hover-description-color, PlutoSansCondLight, 13px);
+    }
+
+    &:hover {
+      .popup {
+        display: grid;
+        }
+      }
+  }
+}
+
+.popup {
+  display: none;
+  grid-gap: 1.9rem;
+  grid-template-columns: 176px 23.9rem;
+  grid-template-rows: auto;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+
+  .cover-hover {
+    background-color: $hover-box-color;
+    height: 250px;
+    width: 176px;
+  }
+
+  .description {
+    background-color: $hover-box-color;
+    border-radius: .3rem;
+    height: auto;
+    padding: 1.8rem 1.9rem;
+
+    h4 {
+      margin-bottom: .5rem;
     }
   }
+
+  .circle {
+    align-items: center;
+    background-color: $white-color;
+    border-radius: 100%;
+    clear: both;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    margin-left: 63px;
+    margin-top: 98px;
+    width: 3rem;
+
+    .fa-book-open {
+      font-size: 22px;
+    }
+  }
+
+  .rate-book {
+    margin-left: 47px;
+    margin-top: 53px;
+  }
+
+  .rate-sentence {
+    color: $complement-color;
+    font-family: PlutoSansCondMedium;
+    font-size: 11px;
+  }
+
+  .rate-hover {
+    margin-left: 4px;
+
+    .fa-star {
+      color: $rating-color;
+    }
+  }
+
+  .hover-title {
+    @include text-style($hover-title-color, PlutoSansCondBold, 13px);
+  }
+
+  .hover-novel-by {
+    @include text-style($white-color, PlutoSansCondRegular, 13px);
+  }
+
+  .hover-summary,
+  .hover-rating, {
+    @include text-style($text-color, PlutoSansCondBold, 12px);
+  }
+
+  .hover-p {
+    @include text-style($white-color, PlutoSansCondRegular, 12px);
+    margin-bottom: .5rem;
+    max-height: 170px;
+    overflow: scroll;
+  }
+}
+
+.hover-pages {
+  @include text-style($white-color, PlutoSansCondRegular, 13px);
+  display: block;
+  margin-bottom: 1.2rem;
+}
+
+.hover-year {
+  @include text-style($text-color, PlutoSansCondRegular, 13px);
+  float: right;
+}
+
+.hover-button {
+  @include text-style($main-color, PlutoSansCondBold, 16px);
+  background-color: transparent;
+  border: 2px solid $main-color;
+  border-radius: .5rem;
+
+  &:active {
+    background-color: $bookshelf-bg-color;
+  }
+}
+
+.hover-responsive {
+  left: -70%;
+  position: absolute;
+  width: 23.9rem;
 }
