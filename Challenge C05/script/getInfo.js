@@ -1,3 +1,9 @@
+/* eslint-env jquery */
+
+// getInfo created to get all the books info from the Google Books API
+// and easily copy it to a JSON file
+
+// Defining an array with the ISBN code of all books
 const isbnList = [
   9780143127550,
   9781408855713,
@@ -16,21 +22,31 @@ const isbnList = [
   9780199536863,
 ];
 
-const getData = function (listItem, index) {
+// Making an Ajax call to get the info
+function getData(listItem, index) {
   const apiURL = `https://www.googleapis.com/books/v1/volumes?q=isbn:${listItem}`;
   $.ajax({
     type: 'GET',
     url: apiURL,
     success: (data) => {
-      const title = data.items[0].volumeInfo.title;
-      const cover = data.items[0].volumeInfo.imageLinks.thumbnail;
-      const author = data.items[0].volumeInfo.authors;
-      const rating = data.items[0].volumeInfo.averageRating;
-      const year = data.items[0].volumeInfo.publishedDate;
-      const pages = data.items[0].volumeInfo.pageCount;
-      const summary = data.items[0].volumeInfo.description;
-      // let isbn = data.items[0].volumeInfo.industryIdentifiers[0].identifier;
-      const bookInfo = `"book${index}": {
+      // Vabiables in which the info will be stored
+      const {
+        volumeInfo: {
+          title,
+          authors: author,
+          averageRating: rating,
+          publishedDate: year,
+          pageCount: pages,
+          description: summary,
+          imageLinks: {
+            thumbnail: cover,
+          },
+        },
+      } = data.items[0];
+
+      // Defining a template literal to build the JSON structure
+      const bookInfo = `{
+        "reference": "book${index}",
         "cover": "${cover}",
         "title": "${title}",
         "author": "${author}",
@@ -45,6 +61,6 @@ const getData = function (listItem, index) {
       console.log(e);
     },
   });
-};
+}
 
 isbnList.forEach(getData);

@@ -28,24 +28,15 @@
 
 .topnav {
   @include lg {
-    border-bottom: 2px solid $main-color;
-    display: grid;
     grid-template-columns: 173.36px 1fr 173.36px;
     grid-template-rows: 60px;
   }
   @include md {
-    border-bottom: 2px solid $main-color;
-    display: grid;
     grid-template-columns: 173.36px 1fr 20%;
-    grid-template-rows: 60px;
   }
   @include sm {
-    border-bottom: 3px solid $main-color;
-    display: grid;
     grid-template-columns: 80px 1fr 80px;
     grid-template-rows: 80px;
-    position: sticky;
-    top: 0;
   }
   border-bottom: 2px solid $main-color;
   display: grid;
@@ -218,11 +209,17 @@ form {
 }
 
 .dev-display {
+  @include lg  {
+    margin-top: 15px;
+  }
+  @include sm {
+    margin-top: 20px;
+  }
   align-content: center;
   display: flex;
   height: 50%;
   justify-content: center;
-  margin-top: 2.5%;
+  margin-top: 20px;
 
   input {
     width: 20%;

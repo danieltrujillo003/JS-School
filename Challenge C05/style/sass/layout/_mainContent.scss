@@ -109,58 +109,44 @@ main {
       width: 100%;
     }
 
-    @include four-columns {
+    @include five-columns {
       &:nth-child(5n) {
-        .popup {
-          .description {
-            position: initial;
-          }
+        .description {
+          @include left-hover-responsive;
         }
       }
 
       &:nth-child(5n-1) {
-        .popup {
-          .description {
-            position: initial;
-          }
+        .description {
+          @include left-hover-responsive;
         }
       }
+    }
 
+    @include four-columns {
       &:nth-child(4n) {
         .description {
-          @include hover-responsive;
+          @include left-hover-responsive;
         }
       }
 
       &:nth-child(4n-1) {
         .description {
-          @include hover-responsive;
+          @include left-hover-responsive;
         }
       }
     }
 
     @include three-columns {
-      &:nth-child(4n) {
-        .popup {
-          .description {
-            position: initial;
-          }
-        }
-      }
-
-      &:nth-child(4n-1) {
-        .popup {
-          .description {
-            position: initial;
-          }
-        }
-      }
-
       &:nth-child(3n) {
+        .description {
+          @include left-hover-responsive;
+        }
+      }
+
+      &:nth-child(3n-1) {
         .popup {
-          .description {
-            @include hover-responsive;
-          }
+          grid-template-columns: 176px 60%;
         }
       }
     }
@@ -178,18 +164,6 @@ main {
 
     margin-bottom: 2.95rem;
     position: relative;
-
-    &:nth-child(5n) {
-      .description {
-        @include hover-responsive;
-      }
-    }
-
-    &:nth-child(5n-1) {
-      .description {
-        @include hover-responsive;
-      }
-    }
 
     img {
       @include sm {
@@ -327,8 +301,3 @@ main {
   }
 }
 
-.hover-responsive {
-  left: -70%;
-  position: absolute;
-  width: 23.9rem;
-}

@@ -15,7 +15,7 @@
   font-size: $size;
 }
 
-@mixin hover-responsive {
+@mixin left-hover-responsive {
   left: -70%;
   position: absolute;
   width: 23.9rem;
@@ -40,14 +40,20 @@
   }
 }
 
+@mixin five-columns {
+  @media only screen and (min-width: 1520px) {
+    @content;
+  }
+}
+
 @mixin four-columns {
-  @media only screen and (max-width: 1519px) {
+  @media only screen and (min-width: 1312px) and (max-width: 1519px) {
     @content;
   }
 }
 
 @mixin three-columns {
-  @media only screen and (max-width: 1311px) {
+  @media only screen and (min-width: 971px) and (max-width: 1311px) {
     @content;
   }
 }

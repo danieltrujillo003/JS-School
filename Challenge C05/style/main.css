@@ -66,28 +66,19 @@
 }
 @media only screen and (max-width: 1180px) {
   .topnav {
-    border-bottom: 2px solid #6ec1e4;
-    display: grid;
     grid-template-columns: 173.36px 1fr 173.36px;
     grid-template-rows: 60px;
   }
 }
 @media only screen and (max-width: 900px) {
   .topnav {
-    border-bottom: 2px solid #6ec1e4;
-    display: grid;
     grid-template-columns: 173.36px 1fr 20%;
-    grid-template-rows: 60px;
   }
 }
 @media only screen and (max-width: 650px) {
   .topnav {
-    border-bottom: 3px solid #6ec1e4;
-    display: grid;
     grid-template-columns: 80px 1fr 80px;
     grid-template-rows: 80px;
-    position: sticky;
-    top: 0;
   }
 }
 
@@ -289,7 +280,17 @@ form {
   display: flex;
   height: 50%;
   justify-content: center;
-  margin-top: 2.5%;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 1180px) {
+  .dev-display {
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .dev-display {
+    margin-top: 20px;
+  }
 }
 .dev-display input {
   width: 20%;
@@ -608,13 +609,19 @@ main {
     width: 100%;
   }
 }
-@media only screen and (max-width: 1519px) {
-  .books article:nth-child(5n) .popup .description {
-    position: initial;
+@media only screen and (min-width: 1520px) {
+  .books article:nth-child(5n) .description {
+    left: -70%;
+    position: absolute;
+    width: 23.9rem;
   }
-  .books article:nth-child(5n-1) .popup .description {
-    position: initial;
+  .books article:nth-child(5n-1) .description {
+    left: -70%;
+    position: absolute;
+    width: 23.9rem;
   }
+}
+@media only screen and (min-width: 1312px) and (max-width: 1519px) {
   .books article:nth-child(4n) .description {
     left: -70%;
     position: absolute;
@@ -626,33 +633,21 @@ main {
     width: 23.9rem;
   }
 }
-@media only screen and (max-width: 1311px) {
-  .books article:nth-child(4n) .popup .description {
-    position: initial;
-  }
-  .books article:nth-child(4n-1) .popup .description {
-    position: initial;
-  }
-  .books article:nth-child(3n) .popup .description {
+@media only screen and (min-width: 971px) and (max-width: 1311px) {
+  .books article:nth-child(3n) .description {
     left: -70%;
     position: absolute;
     width: 23.9rem;
   }
-}
-@media only screen and (max-width: 970px) {
-  .books article:hover .popup .description, .books article:hover .popup .cover-hover {
-    display: none;
+  .books article:nth-child(3n-1) .popup {
+    grid-template-columns: 176px 60%;
   }
 }
-.books article:nth-child(5n) .description {
-  left: -70%;
-  position: absolute;
-  width: 23.9rem;
-}
-.books article:nth-child(5n-1) .description {
-  left: -70%;
-  position: absolute;
-  width: 23.9rem;
+@media only screen and (max-width: 970px) {
+  .books article:hover .popup .description,
+.books article:hover .popup .cover-hover {
+    display: none;
+  }
 }
 .books article img {
   height: 250px;
@@ -788,12 +783,6 @@ main {
 }
 .hover-button:active {
   background-color: #f5f6f8;
-}
-
-.hover-responsive {
-  left: -70%;
-  position: absolute;
-  width: 23.9rem;
 }
 
 .container {

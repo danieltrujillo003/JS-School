@@ -1,137 +1,154 @@
 {
-  "book0": {
-    "cover": "http://books.google.com/books/content?id=JEYCDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "Everything I Never Told You",
-    "author": "Celeste Ng",
-    "rating": "4",
-    "year": "2015",
-    "pages": "306",
-    "summary": "'Lydia is dead. But they don't know this yet. So begins the story of this exquisite debut novel, about a Chinese American family living in 1970s small-town Ohio. Lydia is the favorite child of Marilyn and James Lee; their middle daughter, a girl who inherited her mother's bright blue eyes and her father's jet-black hair. Her parents are determined that Lydia will fulfill the dreams they were unable to pursue-in Marilyn's case that her daughter become a doctor rather than a homemaker, in James's case that Lydia be popular at school, a girl with a busy social life and the center of every party. When Lydia's body is found in the local lake, the delicate balancing act that has been keeping the Lee family together tumbles into chaos, forcing them to confront the long-kept secrets that have been slowly pulling them apart. James, consumed by guilt, sets out on a reckless path that may destroy his marriage. Marilyn, devastated and vengeful, is determined to find a responsible party, no matter what the cost. Lydia's older brother, Nathan, is certain that the neighborhood bad boy Jack is somehow involved. But it's the youngest of the family-Hannah-who observes far more than anyone realizes and who may be the only one who knows the truth about what happened. A profoundly moving story of family, history, and the meaning of home, Everything I Never Told You is both a gripping page-turner and a sensitive family portrait, exploring the divisions between cultures and the rifts within a family, and uncovering the ways in which mothers and daughters, fathers and sons, and husbands and wives struggle, all their lives, to understand one another'--"
-  },
-  "book1": {
-    "cover": "http://books.google.com/books/content?id=I5nHBAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "Harry Potter and the Deathly Hallows",
-    "author": "J. K. Rowling",
-    "rating": "4.5",
-    "year": "2014",
-    "pages": "619",
-    "summary": "As he climbs into the sidecar of Hagrid's motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is now broken, but he cannot keep hiding. The Dark Lord is breathing fear into everything Harry loves, and to stop him Harry will have to find and destroy the remaining Horcruxes. The final battle must begin - Harry must stand and face his enemy.These new editions of the classic and internationally bestselling, multi-award-winning series feature instantly pick-up-able new jackets by Jonny Duddle, with huge child appeal, to bring Harry Potter to the next generation of readers. It's time to PASS THE MAGIC ON ."
-  },
-  "book2": {
-    "cover": "http://books.google.com/books/content?id=XQGhJhEPT10C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "The Chronicles of Narnia (adult)",
-    "author": "C. S. Lewis",
-    "rating": "4.5",
-    "year": "2004-10-26",
-    "pages": "784",
-    "summary": "Journeys to the end of the world, fantastic creatures, and epic battles between good and evil -- what more could any reader ask for in one book? The book that has it all is the lion, the witch and the wardrobe, written in 1949 by C. S. Lewis. But Lewis did not stop there. Six more books followed, and together they became known as The Chronicles of Narnia. For the past fifty years, The Chronicles of Narnia have transcended the fantasy genre to become part of the canon of classic literature. Each of the seven books is a masterpiece, drawing the reader into a world where magic meets reality, and the result is a fictional world whose scope has fascinated generations. This edition presents all seven books -- unabridged -- in one impressive volume. The books are presented here according to Lewis's preferred order, each chapter graced with an illustration by the original artist, Pauline Baynes. This edition also contains C. S. Lewis's essay 'On Three Ways of Writing for Children,' in which he explains precisely how the magic of Narnia and the realm of fantasy appeal not only to children but to discerning readers of all ages. Deceptively simple and direct, The Chronicles of Narnia continue to captivate fans with adventures, characters, and truths that speak to all readers, even fifty years after the books were first published."
-  },
-  "book3": {
-    "cover": "http://books.google.com/books/content?id=XApOPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "The Lord of the Rings",
-    "author": "John Ronald Reuel Tolkien",
-    "rating": "4.5",
-    "year": "2005-10-01",
-    "pages": "1178",
-    "summary": "Presents the epic depicting the Great War of the Ring, a struggle between good and evil in Middle-earth, following the odyssey of Frodo the hobbit and his companions on a quest to destroy the Ring of Power, in a special anniversary volume containing the corrected text of all three volumes of the seminal fantasy trilogy, complemented by maps and cover art by acclaimed artist Alan Lee. Simultaneous."
-  },
-  "book4": {
-    "cover": "http://books.google.com/books/content?id=lKeMDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "Redeployment",
-    "author": "Phil Klay",
-    "rating": "4",
-    "year": "2015",
-    "pages": "304",
-    "summary": "'Taking readers to the front lines of the war in Iraq and back, Redeployment asks us to understand what happened there, and what happened to the soldiers who returned'--Back cover."
-  },
-  "book5": {
-    "cover": "http://books.google.com/books/content?id=5ry-oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "Euphoria",
-    "author": "Lily King",
-    "rating": "4",
-    "year": "2015-04-14",
-    "pages": "288",
-    "summary": "English anthropologist Andrew Banson has been alone in the field for several years, studying the Kiona river tribe in 1930s New Guinea. Haunted by the memory of his brothers' deaths and increasingly frustrated and isolated by his research, Bankson is on the verge of suicide. Then he encounters the famous and controversial American anthropologist Nell Stone and her wry and mercurial Australian husband, Fen, who have just fled the bloodthirsty Mumbanyo. Nell and Fen and, in spite of Nell's poor health, are hungry for a new discovery. When Bankson finds them a new tribe nearby, the artistic, female-dominated Tam, he ignites an intellectual and romantic firestorm between the three of them that burns out of anyone's control."
-  },
-  "book6": {
-    "cover": "http://books.google.com/books/content?id=QNQBDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "Big Little Lies",
-    "author": "Liane Moriarty",
-    "rating": "4",
-    "year": "2015",
-    "pages": "512",
-    "summary": "The new novel from the author of The Husband's Secret A #1 New York Times Bestseller Sometimes it's the little lies that turn out to be the most lethal. A murder...A tragic accident...Or just parents behaving badly? What's indisputable is that someone is dead. Madeline is a force to be reckoned with. She's funny, biting, and passionate; she remembers everything and forgives no one. Celeste is the kind of beautiful woman who makes the world stop and stare but she is paying a price for the illusion of perfection. New to town, single mom Jane is so young that another mother mistakes her for a nanny. She comes with a mysterious past and a sadness beyond her years. These three women are at different crossroads, but they will all wind up in the same shocking place. Big Little Lies is a brilliant take on ex-husbands and second wives, mothers and daughters, schoolyard scandal, and the dangerous little lies we tell ourselves just to survive."
-  },
-  "book7": {
-    "cover": "http://books.google.com/books/content?id=Q0lXrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "The Complete Tales and Poems of Edgar Allan Poe",
-    "author": "Edgar Allan Poe",
-    "rating": "undefined",
-    "year": "2016-12-22",
-    "pages": "1040",
-    "summary": "Edgar Allan Poe is credited with having pioneered the short story, having perfected the tale of psychological horror, and having revolutionised modern poetics. The entirety of Poe's body of imaginative work encompasses detective tales, satires, fables, fantasies, science fiction, verse dramas, and some of the most evocative poetry in the English language. This omnibus edition collects all of Poe's fiction and poetry in a single volume, including The Fall of the House of Usher, The Tell-Tale Heart, The Pit and the Pendulum, The Raven, Annabel Lee, the full-length novel The Narrative of Arthur Gordon Pym of Nantucket, and much more. 'The Complete Tales and Poems of Edgar Allan Poe' is part of Barnes & Noble's Leatherbound Classics. Each title in the series presents a classic work in an attractively designed edition bound in genuine bonded leather. These books make elegant additions to any home library."
-  },
-  "book8": {
-    "cover": "http://books.google.com/books/content?id=KNVOuwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "Poems Second Series",
-    "author": "Emily Dikinson",
-    "rating": "undefined",
-    "year": "2018-08-27",
-    "pages": "102",
-    "summary": "Emily Elizabeth Dickinson (December 10, 1830 - May 15, 1886) was an American poet. Dickinson was born in Amherst, Massachusetts into a prominent family with strong ties to its community. After studying at the Amherst Academy for seven years in her youth, she briefly attended the Mount Holyoke Female Seminary before returning to her family's house in Amherst."
-  },
-  "book9": {
-    "cover": "http://books.google.com/books/content?id=AQzRrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "Station Eleven",
-    "author": "Emily St. John Mandel",
-    "rating": "4",
-    "year": "2015-06-02",
-    "pages": "352",
-    "summary": "A National Book Award Finalist A PEN/Faulkner Award Finalist Kirsten Raymonde will never forget the night Arthur Leander, the famous Hollywood actor, had a heart attack on stage during a production of King Lear. That was the night when a devastating flu pandemic arrived in the city, and within weeks, civilization as we know it came to an end. Twenty years later, Kirsten moves between the settlements of the altered world with a small troupe of actors and musicians. They call themselves The Traveling Symphony, and they have dedicated themselves to keeping the remnants of art and humanity alive. But when they arrive in St. Deborah by the Water, they encounter a violent prophet who will threaten the tiny band's existence. And as the story takes off, moving back and forth in time, and vividly depicting life before and after the pandemic, the strange twist of fate that connects them all will be revealed."
-  },
-  "book10": {
-    "cover": "http://books.google.com/books/content?id=zIYCfy0NnGgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "title": "The Works of Walt Whitman",
-    "author": "Walt Whitman",
-    "rating": "5",
-    "year": "1995-01",
-    "pages": "557",
-    "summary": "Offers poetry selections from the nineteenth-century American master."
-  },
-  "book11": {
-    "cover": "http://books.google.com/books/content?id=0E2NoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "Savage Harvest",
-    "author": "Carl Hoffman",
-    "rating": "3.5",
-    "year": "2015-03-10",
-    "pages": "336",
-    "summary": "On November 21, 1961, Michael C. Rockefeller, the twenty-three-year-old son of New York governor Nelson Rockefeller, vanished off the coast of southwest New Guinea when his boat capsized. He was on a collecting expedition for the Museum of Primitive Art, and his partner—who stayed with the boat and was later rescued—shared Michael's final words as he swam for help: 'I think I can make it.' Despite exhaustive searches, no trace of Michael was ever found. Soon after his disappearance, rumors surfaced that he'd made it to shore, where he was then killed and eaten by the local Asmat—a native tribe of warriors whose complex culture was built around sacred, reciprocal violence, headhunting, and ritual cannibalism. The Dutch government and the Rockefeller family vehemently denied the story, and Michael's death was officially ruled a drowning. But doubts lingered and sensational stories circulated, fueling speculation and intrigue for decades. Now, award-winning journalist Carl Hoffman reveals startling new evidence that finally tells the full, astonishing story. Retracing Michael's steps, Hoffman traveled to the jungles of New Guinea, immersing himself in a world of former headhunters and cannibals, secret spirits and customs, and getting to know generations of Asmat. Through exhaustive archival research, he uncovered hundreds of pages of never-before-seen original documents and located witnesses willing to speak publicly for the first time in fifty years. Savage Harvest is at once a mesmerizing whodunit and a fascinating portrait of the clash between two civilizations that resulted in the death of one of America's richest and most powerful scions."
-  },
-  "book12": {
-    "cover": "http://books.google.com/books/content?id=BrCroAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "The Book of Unknown Americans",
-    "author": "Cristina Henríquez",
-    "rating": "4",
-    "year": "2015-03-03",
-    "pages": "304",
-    "summary": "Moving from Mexico to America when their daughter suffers a near-fatal accident, the Riveras confront cultural barriers, their daughter's difficult recovery and her developing relationship with a Panamanian boy."
-  },
-  "book13": {
-    "cover": "http://books.google.com/books/content?id=nW5UnJOOMOgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "The Complete Poetry and Prose of William Blake",
-    "author": "William Blake",
-    "rating": "4.5",
-    "year": "1988",
-    "pages": "990",
-    "summary": "Critical commentary illuminating Blake's allusions and references accompanies the texts of his poetic and prose works"
-  },
-  "book14": {
-    "cover": "http://books.google.com/books/content?id=n319LgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "title": "The Major Works",
-    "author": "William Wordsworth",
-    "rating": "undefined",
-    "year": "2008-07-10",
-    "pages": "784",
-    "summary": "This authoritative edition was formerly published in the acclaimed Oxford Authors series under the general editorship of Frank Kermode. It brings together a unique combination of Wordsworth's poetry and prose - all the major poems, complemented by important letters, prefaces, and essays - to give the essence of his work and thinking."
-  }
+  "books": [
+    {
+      "reference": "book0",
+      "cover": "http://books.google.com/books/content?id=JEYCDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "Everything I Never Told You",
+      "author": "Celeste Ng",
+      "rating": "4",
+      "year": "2015",
+      "pages": "306",
+      "summary": "'Lydia is dead. But they don't know this yet. So begins the story of this exquisite debut novel, about a Chinese American family living in 1970s small-town Ohio. Lydia is the favorite child of Marilyn and James Lee; their middle daughter, a girl who inherited her mother's bright blue eyes and her father's jet-black hair. Her parents are determined that Lydia will fulfill the dreams they were unable to pursue-in Marilyn's case that her daughter become a doctor rather than a homemaker, in James's case that Lydia be popular at school, a girl with a busy social life and the center of every party. When Lydia's body is found in the local lake, the delicate balancing act that has been keeping the Lee family together tumbles into chaos, forcing them to confront the long-kept secrets that have been slowly pulling them apart. James, consumed by guilt, sets out on a reckless path that may destroy his marriage. Marilyn, devastated and vengeful, is determined to find a responsible party, no matter what the cost. Lydia's older brother, Nathan, is certain that the neighborhood bad boy Jack is somehow involved. But it's the youngest of the family-Hannah-who observes far more than anyone realizes and who may be the only one who knows the truth about what happened. A profoundly moving story of family, history, and the meaning of home, Everything I Never Told You is both a gripping page-turner and a sensitive family portrait, exploring the divisions between cultures and the rifts within a family, and uncovering the ways in which mothers and daughters, fathers and sons, and husbands and wives struggle, all their lives, to understand one another'--"
+    },
+    {
+      "reference": "book1",
+      "cover": "http://books.google.com/books/content?id=I5nHBAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "Harry Potter and the Deathly Hallows",
+      "author": "J. K. Rowling",
+      "rating": "4.5",
+      "year": "2014",
+      "pages": "619",
+      "summary": "As he climbs into the sidecar of Hagrid's motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is now broken, but he cannot keep hiding. The Dark Lord is breathing fear into everything Harry loves, and to stop him Harry will have to find and destroy the remaining Horcruxes. The final battle must begin - Harry must stand and face his enemy.These new editions of the classic and internationally bestselling, multi-award-winning series feature instantly pick-up-able new jackets by Jonny Duddle, with huge child appeal, to bring Harry Potter to the next generation of readers. It's time to PASS THE MAGIC ON ."
+    },
+    {
+      "reference": "book2",
+      "cover": "http://books.google.com/books/content?id=XQGhJhEPT10C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "The Chronicles of Narnia (adult)",
+      "author": "C. S. Lewis",
+      "rating": "4.5",
+      "year": "2004-10-26",
+      "pages": "784",
+      "summary": "Journeys to the end of the world, fantastic creatures, and epic battles between good and evil -- what more could any reader ask for in one book? The book that has it all is the lion, the witch and the wardrobe, written in 1949 by C. S. Lewis. But Lewis did not stop there. Six more books followed, and together they became known as The Chronicles of Narnia. For the past fifty years, The Chronicles of Narnia have transcended the fantasy genre to become part of the canon of classic literature. Each of the seven books is a masterpiece, drawing the reader into a world where magic meets reality, and the result is a fictional world whose scope has fascinated generations. This edition presents all seven books -- unabridged -- in one impressive volume. The books are presented here according to Lewis's preferred order, each chapter graced with an illustration by the original artist, Pauline Baynes. This edition also contains C. S. Lewis's essay 'On Three Ways of Writing for Children,' in which he explains precisely how the magic of Narnia and the realm of fantasy appeal not only to children but to discerning readers of all ages. Deceptively simple and direct, The Chronicles of Narnia continue to captivate fans with adventures, characters, and truths that speak to all readers, even fifty years after the books were first published."
+    },
+    {
+      "reference": "book3",
+      "cover": "http://books.google.com/books/content?id=XApOPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "The Lord of the Rings",
+      "author": "John Ronald Reuel Tolkien",
+      "rating": "4.5",
+      "year": "2005-10-01",
+      "pages": "1178",
+      "summary": "Presents the epic depicting the Great War of the Ring, a struggle between good and evil in Middle-earth, following the odyssey of Frodo the hobbit and his companions on a quest to destroy the Ring of Power, in a special anniversary volume containing the corrected text of all three volumes of the seminal fantasy trilogy, complemented by maps and cover art by acclaimed artist Alan Lee. Simultaneous."
+    },
+    {
+      "reference": "book4",
+      "cover": "http://books.google.com/books/content?id=lKeMDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "Redeployment",
+      "author": "Phil Klay",
+      "rating": "4",
+      "year": "2015",
+      "pages": "304",
+      "summary": "'Taking readers to the front lines of the war in Iraq and back, Redeployment asks us to understand what happened there, and what happened to the soldiers who returned'--Back cover."
+    },
+    {
+      "reference": "book5",
+      "cover": "http://books.google.com/books/content?id=5ry-oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "Euphoria",
+      "author": "Lily King",
+      "rating": "4",
+      "year": "2015-04-14",
+      "pages": "288",
+      "summary": "English anthropologist Andrew Banson has been alone in the field for several years, studying the Kiona river tribe in 1930s New Guinea. Haunted by the memory of his brothers' deaths and increasingly frustrated and isolated by his research, Bankson is on the verge of suicide. Then he encounters the famous and controversial American anthropologist Nell Stone and her wry and mercurial Australian husband, Fen, who have just fled the bloodthirsty Mumbanyo. Nell and Fen and, in spite of Nell's poor health, are hungry for a new discovery. When Bankson finds them a new tribe nearby, the artistic, female-dominated Tam, he ignites an intellectual and romantic firestorm between the three of them that burns out of anyone's control."
+    },
+    {
+      "reference": "book6",
+      "cover": "http://books.google.com/books/content?id=QNQBDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "Big Little Lies",
+      "author": "Liane Moriarty",
+      "rating": "4",
+      "year": "2015",
+      "pages": "512",
+      "summary": "The new novel from the author of The Husband's Secret A #1 New York Times Bestseller Sometimes it's the little lies that turn out to be the most lethal. A murder...A tragic accident...Or just parents behaving badly? What's indisputable is that someone is dead. Madeline is a force to be reckoned with. She's funny, biting, and passionate; she remembers everything and forgives no one. Celeste is the kind of beautiful woman who makes the world stop and stare but she is paying a price for the illusion of perfection. New to town, single mom Jane is so young that another mother mistakes her for a nanny. She comes with a mysterious past and a sadness beyond her years. These three women are at different crossroads, but they will all wind up in the same shocking place. Big Little Lies is a brilliant take on ex-husbands and second wives, mothers and daughters, schoolyard scandal, and the dangerous little lies we tell ourselves just to survive."
+    },
+    {
+      "reference": "book7",
+      "cover": "http://books.google.com/books/content?id=Q0lXrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "The Complete Tales and Poems of Edgar Allan Poe",
+      "author": "Edgar Allan Poe",
+      "rating": "undefined",
+      "year": "2016-12-22",
+      "pages": "1040",
+      "summary": "Edgar Allan Poe is credited with having pioneered the short story, having perfected the tale of psychological horror, and having revolutionised modern poetics. The entirety of Poe's body of imaginative work encompasses detective tales, satires, fables, fantasies, science fiction, verse dramas, and some of the most evocative poetry in the English language. This omnibus edition collects all of Poe's fiction and poetry in a single volume, including The Fall of the House of Usher, The Tell-Tale Heart, The Pit and the Pendulum, The Raven, Annabel Lee, the full-length novel The Narrative of Arthur Gordon Pym of Nantucket, and much more. 'The Complete Tales and Poems of Edgar Allan Poe' is part of Barnes & Noble's Leatherbound Classics. Each title in the series presents a classic work in an attractively designed edition bound in genuine bonded leather. These books make elegant additions to any home library."
+    },
+    {
+      "reference": "book8",
+      "cover": "http://books.google.com/books/content?id=KNVOuwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "Poems Second Series",
+      "author": "Emily Dikinson",
+      "rating": "undefined",
+      "year": "2018-08-27",
+      "pages": "102",
+      "summary": "Emily Elizabeth Dickinson (December 10, 1830 - May 15, 1886) was an American poet. Dickinson was born in Amherst, Massachusetts into a prominent family with strong ties to its community. After studying at the Amherst Academy for seven years in her youth, she briefly attended the Mount Holyoke Female Seminary before returning to her family's house in Amherst."
+    },
+    {
+      "reference": "book9",
+      "cover": "http://books.google.com/books/content?id=AQzRrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "Station Eleven",
+      "author": "Emily St. John Mandel",
+      "rating": "4",
+      "year": "2015-06-02",
+      "pages": "352",
+      "summary": "A National Book Award Finalist A PEN/Faulkner Award Finalist Kirsten Raymonde will never forget the night Arthur Leander, the famous Hollywood actor, had a heart attack on stage during a production of King Lear. That was the night when a devastating flu pandemic arrived in the city, and within weeks, civilization as we know it came to an end. Twenty years later, Kirsten moves between the settlements of the altered world with a small troupe of actors and musicians. They call themselves The Traveling Symphony, and they have dedicated themselves to keeping the remnants of art and humanity alive. But when they arrive in St. Deborah by the Water, they encounter a violent prophet who will threaten the tiny band's existence. And as the story takes off, moving back and forth in time, and vividly depicting life before and after the pandemic, the strange twist of fate that connects them all will be revealed."
+    },
+    {
+      "reference": "book10",
+      "cover": "http://books.google.com/books/content?id=zIYCfy0NnGgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "title": "The Works of Walt Whitman",
+      "author": "Walt Whitman",
+      "rating": "5",
+      "year": "1995-01",
+      "pages": "557",
+      "summary": "Offers poetry selections from the nineteenth-century American master."
+    },
+    {
+      "reference": "book11",
+      "cover": "http://books.google.com/books/content?id=0E2NoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "Savage Harvest",
+      "author": "Carl Hoffman",
+      "rating": "3.5",
+      "year": "2015-03-10",
+      "pages": "336",
+      "summary": "On November 21, 1961, Michael C. Rockefeller, the twenty-three-year-old son of New York governor Nelson Rockefeller, vanished off the coast of southwest New Guinea when his boat capsized. He was on a collecting expedition for the Museum of Primitive Art, and his partner—who stayed with the boat and was later rescued—shared Michael's final words as he swam for help: 'I think I can make it.' Despite exhaustive searches, no trace of Michael was ever found. Soon after his disappearance, rumors surfaced that he'd made it to shore, where he was then killed and eaten by the local Asmat—a native tribe of warriors whose complex culture was built around sacred, reciprocal violence, headhunting, and ritual cannibalism. The Dutch government and the Rockefeller family vehemently denied the story, and Michael's death was officially ruled a drowning. But doubts lingered and sensational stories circulated, fueling speculation and intrigue for decades. Now, award-winning journalist Carl Hoffman reveals startling new evidence that finally tells the full, astonishing story. Retracing Michael's steps, Hoffman traveled to the jungles of New Guinea, immersing himself in a world of former headhunters and cannibals, secret spirits and customs, and getting to know generations of Asmat. Through exhaustive archival research, he uncovered hundreds of pages of never-before-seen original documents and located witnesses willing to speak publicly for the first time in fifty years. Savage Harvest is at once a mesmerizing whodunit and a fascinating portrait of the clash between two civilizations that resulted in the death of one of America's richest and most powerful scions."
+    },
+    {
+      "reference": "book12",
+      "cover": "http://books.google.com/books/content?id=BrCroAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "The Book of Unknown Americans",
+      "author": "Cristina Henríquez",
+      "rating": "4",
+      "year": "2015-03-03",
+      "pages": "304",
+      "summary": "Moving from Mexico to America when their daughter suffers a near-fatal accident, the Riveras confront cultural barriers, their daughter's difficult recovery and her developing relationship with a Panamanian boy."
+    },
+    {
+      "reference": "book13",
+      "cover": "http://books.google.com/books/content?id=nW5UnJOOMOgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "The Complete Poetry and Prose of William Blake",
+      "author": "William Blake",
+      "rating": "4.5",
+      "year": "1988",
+      "pages": "990",
+      "summary": "Critical commentary illuminating Blake's allusions and references accompanies the texts of his poetic and prose works"
+    },
+    {
+      "reference": "book14",
+      "cover": "http://books.google.com/books/content?id=n319LgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "title": "The Major Works",
+      "author": "William Wordsworth",
+      "rating": "undefined",
+      "year": "2008-07-10",
+      "pages": "784",
+      "summary": "This authoritative edition was formerly published in the acclaimed Oxford Authors series under the general editorship of Frank Kermode. It brings together a unique combination of Wordsworth's poetry and prose - all the major poems, complemented by important letters, prefaces, and essays - to give the essence of his work and thinking."
+    }
+  ]
 }

@@ -17,7 +17,6 @@
       integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
       crossorigin="anonymous"
     />
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   </head>
 
   <body>
@@ -104,9 +103,42 @@
           </div>
         </header>
         <section class="books" id="books-container">
-          <!--
-            This is the container of the books generated via document fragment
-          -->
+          <script id="entry-template" type="text/x-handlebars-template">
+            {{#each books}}
+            <article class="book">
+              <figure>
+                <img class="book-cover" src="{{cover}}" alt="{{title}} book cover">
+              </figure>
+              <h3 class="article-title">{{title}}</h3>
+              <span class="article-author">{{author}}</span>
+              <div class="rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <div class="popup">
+                <div class="cover-hover">
+                  <div class="circle">
+                    <i class="fas fa-book-open"></i>
+                  </div>
+                  <div class="rate-book">
+                    <span class="rate-sentence">RATE THIS BOOK</span>
+                    <div class="rate-hover">
+                      <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="description">
+                  <span class="hover-year">{{year}}</span>
+                  <h3 class="hover-title">{{title}}</h3>
+                  <span class="hover-novel-by">Novel by {{author}}</span>
+                  <span class="hover-pages">{{pages}} pages</span>
+                  <h4 class="hover-summary">SUMMARY</h4>
+                  <p class="hover-p">{{summary}}</p>
+                  <button class="hover-button">Borrow</button>
+                </div>
+              </div>
+            </article>
+            {{/each}}
+          </script>
         </section>
       </main>
 
@@ -128,8 +160,11 @@
         </div>
       </aside>
     </div>
-    <script src="script/responsive.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script/handlebars-v4.0.12.js"></script>
     <script src="script/bookDisplay.js"></script>
     <script src="script/devMode.js"></script>
+    <script src="script/responsive.js"></script>
   </body>
 </html>
