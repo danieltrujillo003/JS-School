@@ -1,0 +1,114 @@
+.bar-left {
+  @include md {
+    border-bottom: 2px solid $white-color;
+    grid-area: leftbar;
+    overflow-y: scroll;
+  }
+  @include sm {
+    display: none;
+    grid-area: left;
+    height: 240px;
+  }
+  background-color: $sidebars-color;
+  font-family: PlutoSansCondRegular;
+}
+
+.nav-main {
+  @include lg {
+    font-size: 13px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  @include sm {
+    font-size: 12px;
+    grid-gap: .5rem;
+    margin-left: 15%;
+    margin-right: 0;
+    width: 35%;
+  }
+  display: grid;
+  font-size: 14px;
+  grid-gap: 1.3rem;
+  grid-template-columns: auto;
+  grid-template-rows: 17px 19px 19px 19px 19px 19px 19px;
+  margin: 2.1rem 16% 3.4rem;
+
+  span {
+    @include text-style($white-color, PlutoSansCondBold, 13px);
+  }
+}
+
+.nav-link {
+  color: $main-color;
+
+  span {
+    color: $main-color;
+  }
+
+  .link-icon {
+    font-size: 1rem;
+    text-align: center;
+    width: 18px;
+    margin-right: 10%;
+  }
+
+  a {
+
+    &:visited {
+      color: $main-color;
+    }
+
+    &:link {
+      color: $main-color;
+    }
+  }
+
+  .last {
+    color: $complement-color;
+    font-family: PlutoSansCondMedium;
+
+    &:visited {
+      color: $complement-color;
+      font-family: PlutoSansCondMedium;
+    }
+  }
+}
+
+.last-icon {
+  color: $complement-color;
+}
+
+
+.nav-your-books {
+  @include lg {
+    margin-left: 10%;
+    margin-top: 2.1rem;
+  }
+  @include md {
+    margin-bottom: 2rem;
+  }
+  @include sm {
+    grid-gap: .5rem;
+    width: 35%;
+  }
+  display: grid;
+  font-size: 13px;
+  grid-gap: 1.4rem;
+  grid-template-columns: auto;
+  grid-template-rows: 17px 17px 17px 17px 17px;
+  margin-left: 16%;
+
+  i {
+    font-size: .9rem;
+    text-align: center;
+    width: 18px;
+  }
+
+  span {
+    @include text-style($white-color, PlutoSansCondBold, 13px);
+  }
+}
+
+.left-bar-responsive {
+  display: flex;
+}

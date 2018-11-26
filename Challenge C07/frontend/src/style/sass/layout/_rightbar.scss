@@ -1,0 +1,60 @@
+.bar-right {
+  @include md {
+    grid-area: rightbar;
+    overflow-y: scroll;
+    padding-left: 10%;
+  }
+  @include sm {
+    @include hide-text;
+    grid-area: right;
+    height: 35px;
+    padding: .5rem 5%;
+    text-align: center;
+    white-space: nowrap;
+  }
+  background-color: $sidebars-color;
+  color: $complement-color;
+  font-family: PlutoSansCondLight;
+  padding: 2rem 13% 0 14%;
+
+  span {
+    font-size: 13px;
+    opacity: .7;
+
+    i {
+      @include sm {
+        display: inline-block;
+      }
+      display: none;
+      margin-left: .5rem;
+    }
+  }
+
+  ol {
+    @include md {
+      margin-bottom: 2rem;
+    }
+    opacity: .7;
+    padding: 0;
+  }
+
+  li {
+    @include sm {
+      margin-top: .4rem;
+    }
+    @include hide-text;
+    font-size: 12px;
+    list-style-position: inside;
+    margin-top: 1.65rem;
+    white-space: nowrap;
+  }
+}
+
+.right-bar-responsive {
+  height: 150px;
+}
+
+.rotate {
+  @include transform(180deg);
+}
+

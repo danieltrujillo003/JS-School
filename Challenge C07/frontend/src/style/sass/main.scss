@@ -1,0 +1,25 @@
+@import 'helpers/fonts';
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'layout/header';
+@import 'layout/container';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  }
+  
